@@ -84,8 +84,34 @@
   
     }
 
+    /*pagina nosotros/ location buttom*/
+    .locacion__cta{
 
-
+        display: inline-block;
+        text-align: center;
+        margin-top: 48px;
+        margin-bottom: 48px;
+        background-color: #FFC000;
+        width: 200px;
+        height: 40px;
+        padding: 6px;
+        border-radius: 10px;
+        box-shadow: 0 0 5px 0  var(--color-headings);
+        border: #F6F6F6 1px solid;
+        transition: all 0.2s ease-in 0s;
+        
+        &:hover{
+            background-color: #FFD700;
+            transition: all 0.2s ease-in-out 0s;
+        }
+        a{
+            text-decoration: none;
+            color: var(--color-texblack);
+            font-family: "Poppins", serif; font-size: 18px;
+            font-weight: 600;
+            }
+        
+    }
 
 
 

@@ -61,7 +61,7 @@ h1 {
   font-family: "Poppins", serif;
   font-weight: 600;
   font-size: 24px;
-  color: #fb0000;
+  color: #fff;
 }
 
 h2 {
@@ -172,6 +172,33 @@ p, article {
 .--3 {
   display: inline-block;
   padding: 8px 24px;
+}
+
+/*pagina nosotros/ location buttom*/
+.locacion__cta {
+  display: inline-block;
+  text-align: center;
+  margin-top: 48px;
+  margin-bottom: 48px;
+  background-color: #FFC000;
+  width: 200px;
+  height: 40px;
+  padding: 6px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px 0 var(--color-headings);
+  border: #F6F6F6 1px solid;
+  transition: all 0.2s ease-in 0s;
+}
+.locacion__cta:hover {
+  background-color: #FFD700;
+  transition: all 0.2s ease-in-out 0s;
+}
+.locacion__cta a {
+  text-decoration: none;
+  color: var(--color-texblack);
+  font-family: "Poppins", serif;
+  font-size: 18px;
+  font-weight: 600;
 }
 
 /*cards inicio*/
@@ -307,6 +334,7 @@ header .buttom__nav:hover {
 /* .nav-item{
     padding: 0 0;
 } */
+/*pages*/
 /*inicio*/
 /* section hero /inicio */
 main .section__hero {
@@ -488,9 +516,67 @@ main .container__hero .hero-parrafo {
   background-repeat: no-repeat;
 }
 
-/* SECTION 3 /inicio*/
-/* section 4 inicio/ certificaciones  */
-/*footer*/
+/* PAGINA NOSOTROS */
+main #nosotros {
+  width: 100vw;
+  height: 100vh;
+}
+main .nosotros__tittle {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  margin-bottom: 0.9rem;
+  color: var(--secundary-button);
+}
+main .nosotros__article {
+  display: flex;
+  width: 100%;
+  padding: 0 72px;
+  line-height: 1.5;
+  text-align: justify;
+}
+main .fundadores {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 48px;
+  margin-bottom: 48px;
+  padding: 0 72px;
+}
+main .fundadores img {
+  width: 220px;
+  height: 220px;
+}
+
+#section-location {
+  width: 100%;
+  height: 100%;
+}
+#section-location .locacion__tittle {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 0.9rem;
+}
+#section-location .parrafo__locacion {
+  display: flex;
+  width: 100%;
+  padding: 0 72px;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+#location-map {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 48px;
+}
+
+/*lecciones*/
 footer {
   width: 100%;
   background-color: var(--color-button);
@@ -548,6 +634,7 @@ footer .icon__container .footer__contacto {
 .footer__h2 {
   color: var(--color-texblack);
   margin-top: 4rem;
+  text-align: center;
 }
 
 .footer__correos {
@@ -562,100 +649,6 @@ footer .icon__container .footer__contacto {
 .footer__span span {
   color: black;
   font-weight: 500;
-}
-
-/* PAGINA NOSOTROS */
-.nosotros {
-  width: 100%;
-  height: 100%;
-}
-
-.nosotros__tittle {
-  display: flex;
-  justify-content: center;
-  margin-top: 3rem;
-  margin-bottom: 0.9rem;
-  color: var(--secundary-button);
-}
-
-.nosotros__article {
-  display: flex;
-  width: 100%;
-  padding: 0 72px;
-  line-height: 1.5;
-  text-align: justify;
-}
-
-.fundadores {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  margin-top: 48px;
-  margin-bottom: 48px;
-  padding: 0 72px;
-}
-
-.img__fundadores {
-  width: 220px;
-  height: 220px;
-}
-
-.section__locacion {
-  width: 100%;
-  height: 100%;
-}
-
-.locacion__tittle {
-  display: flex;
-  justify-content: center;
-  margin-top: 2rem;
-  margin-bottom: 0.9rem;
-}
-
-.parrafo__locacion {
-  display: flex;
-  width: 100%;
-  padding: 0 72px;
-  line-height: 1.6;
-  text-align: justify;
-}
-
-.locacion__map {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-top: 48px;
-}
-
-.locacion__cta {
-  display: inline-block;
-  text-align: center;
-  margin-top: 48px;
-  margin-bottom: 48px;
-  background-color: #FFC000;
-  width: 200px;
-  height: 40px;
-  padding: 6px;
-  border-radius: 10px;
-  box-shadow: 0 0 5px 0 var(--color-headings);
-  border: #F6F6F6 1px solid;
-  transition: all 0.2s ease-in 0s;
-}
-
-.locacion__cta:hover {
-  background-color: #FFD700;
-  transition: all 0.2s ease-in-out 0s;
-}
-
-.locacion__cta a {
-  text-decoration: none;
-  color: var(--color-texblack);
-  font-family: "Poppins", serif;
-  font-size: 18px;
-  font-weight: 600;
 }
 
 /* pagina/LECCIONES */
@@ -1449,7 +1442,6 @@ label {
     margin: 2rem;
   }
 }
-/* fuentes */
 /* barra navegacion */
 /* .nav__logo{
     padding-top: 67px;
@@ -1457,13 +1449,8 @@ label {
     width: 160px;
     height: 190px;
 }   */
-/* nav bootstrap */
 /* .nav-item{
     padding: 0 0;
 } */
-/* section hero /inicio */
-/* contenido cards/inicio */
-/* SECTION 3 /inicio*/
-/* section 4 inicio/ certificaciones  */
 
 /*# sourceMappingURL=style.css.map */

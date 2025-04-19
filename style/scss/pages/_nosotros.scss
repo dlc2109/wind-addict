@@ -1,0 +1,157 @@
+/* PAGINA NOSOTROS */
+main{
+    #nosotros{
+        width: 100vw;
+        height: 100vh;
+    }
+    .nosotros__tittle{
+        display: flex;
+        justify-content: center;
+        margin-top: 3rem ;
+        margin-bottom: 0.9rem;
+        color: var(--secundary-button);
+        }
+        .nosotros__article{
+            display: flex;
+            width: 100%;
+            padding: 0 72px;
+            line-height: 1.5;
+            text-align: justify;
+            }
+            .fundadores{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-around;
+                flex-wrap: wrap;
+                margin-top: 48px;
+                margin-bottom: 48px;
+                padding: 0 72px;
+                img{
+                    width: 220px;
+                    height: 220px;
+                }
+        }
+         
+               }  
+               #section-location{
+                width: 100%;
+                height: 100%;
+                .locacion__tittle{
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 2rem ;
+                    margin-bottom: 0.9rem;
+                    }
+                    .parrafo__locacion{
+                        display: flex;
+                        width: 100%;
+                        padding: 0 72px;
+                        line-height: 1.6;
+                        text-align: justify;
+                        }  
+                   }
+
+                 #location-map{
+                       display: flex;
+                       flex-direction: column;
+                      align-items: center;
+                      justify-content: center;
+                      margin-top: 48px;
+                 }
+
+
+
+
+
+
+
+//  #nosotros{
+//     width: 100%;
+//     height: 100%;
+//  }
+
+// .nosotros__tittle{
+// display: flex;
+// justify-content: center;
+// margin-top: 3rem ;
+// margin-bottom: 0.9rem;
+// color: var(--secundary-button);
+// }
+// .nosotros__article{
+// display: flex;
+// width: 100%;
+// padding: 0 72px;
+// line-height: 1.5;
+// text-align: justify;
+// }
+// .fundadores{
+// display: flex;
+// flex-direction: row;
+// align-items: center;
+// justify-content: space-around;
+// flex-wrap: wrap;
+// margin-top: 48px;
+// margin-bottom: 48px;
+// padding: 0 72px;
+// }
+
+// .img__fundadores{
+// width: 220px;
+// height: 220px;
+
+// }
+// #section-location{
+// width: 100%;
+// height: 100%;
+
+// }
+// .locacion__tittle{
+// display: flex;
+// justify-content: center;
+// margin-top: 2rem ;
+// margin-bottom: 0.9rem;
+// }
+// .parrafo__locacion{
+// display: flex;
+// width: 100%;
+// padding: 0 72px;
+// line-height: 1.6;
+// text-align: justify;
+// }
+
+// #location-map{
+// display: flex;
+// flex-direction: column;
+// align-items: center;
+// justify-content: center;
+// margin-top: 48px;
+
+// }
+// .locacion__cta{
+
+// display: inline-block;
+// text-align: center;
+// margin-top: 48px;
+// margin-bottom: 48px;
+// background-color: #FFC000;
+// width: 200px;
+// height: 40px;
+// padding: 6px;
+// border-radius: 10px;
+// box-shadow: 0 0 5px 0  var(--color-headings);
+// border: #F6F6F6 1px solid;
+// transition: all 0.2s ease-in 0s;
+
+// }
+// .locacion__cta:hover{
+// background-color: #FFD700;
+// transition: all 0.2s ease-in-out 0s;
+// }
+
+// .locacion__cta a{
+// text-decoration: none;
+// color: var(--color-texblack);
+// font-family: "Poppins", serif; font-size: 18px;
+// font-weight: 600;
+// }
