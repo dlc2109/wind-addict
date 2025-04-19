@@ -1,0 +1,25 @@
+@mixin img-certificaciones(){  
+width: 125px;
+height: 125px;
+margin-top: 100px;
+background-size: contain;
+background-repeat: no-repeat;
+
+}
+
+.img__iko{
+    @include img-certificaciones;
+    background-image: url(../../../images/iko.png);
+}
+.img__logo-certificaciones{
+    @include img-certificaciones;
+    background-image: url(../../../images/logo-winda.png);
+}
+.img__logo-firstaid{
+    @include img-certificaciones;
+    background-image: url(../../../images/firstsaid.png);
+    width: 75px;
+    height: 125px;
+    margin-top: 18px;
+    background-size: contain;
+}

@@ -1,0 +1,55 @@
+/*cards inicio*/
+.cards{
+    background-color: #fdfdfd;
+    width: 340px;
+    height: 380px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 0 var(--color-headings);
+    margin: 0;
+    margin-top: 48px;
+}
+.cards {
+    @extend .cards;
+    .img_1 {
+        height: 200px;
+        margin: auto;
+        margin: 4px 4px;
+        border-radius: 8px;
+        background-image: url(../../images/cardkite.png);
+        background-size: cover;
+        background-repeat: no repeat;
+    }
+    .img_2{
+        height: 200px;
+        margin: auto;
+        margin: 4px 4px;
+        border-radius: 8px;
+        background-image: url(../../images/cardwing.jpg);
+        background-size: cover;
+        background-repeat: no repeat;
+    }
+    .img_3{
+        height: 200px;
+        margin: auto;
+        margin: 4px 4px;
+        border-radius: 8px;
+        background-image: url(../../images/cardfoil.jpg);
+        background-size: cover;
+        background-repeat: no repeat;
+    }
+    .contenido_titulo h2{
+        color:var(--color-texblack);
+        font-weight: 600;
+       margin: 4px;
+    
+    }
+    .card_parrafo P{
+        color: var(--color-texblack);
+        margin: 0px 1rem;
+        text-align: center;
+    
+        line-height: 1.4;
+        text-align: justify;
+    }
+    
+}
