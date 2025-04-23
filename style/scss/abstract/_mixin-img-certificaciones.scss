@@ -1,12 +1,11 @@
+/*base de logos*/
 @mixin img-certificaciones(){  
 width: 125px;
 height: 125px;
 margin-top: 100px;
 background-size: contain;
 background-repeat: no-repeat;
-
 }
-
 .img__iko{
     @include img-certificaciones;
     background-image: url(../../../images/iko.png);
@@ -23,3 +22,148 @@ background-repeat: no-repeat;
     margin-top: 18px;
     background-size: contain;
 }
+/*base de cards/lecciones*/
+@mixin card__base (){
+    width: 280px;
+    height: 350px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 0px rgb(167, 167, 167);
+}
+.iniciante-1{
+    @include card__base;
+    background-image: url(../../images/nociones\ basicas.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+   
+    h2{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 1rem;
+    color: var(--color-texblack);
+    font-weight: 500; font-family: cursive;
+
+ }
+}
+.iniciante-2{
+    @include card__base;
+  background-image: url(/images/waterstart.png);
+    background-size: cover;
+    background-repeat: no repeat;
+    background-position-x: 300%;
+    
+     h2{
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 1rem;
+        color: var(--color-texblack);
+        font-weight: 500; font-family: cursive;
+    }
+
+}
+ 
+    .iniciante-3{
+        @include card__base;
+        background-image: url(../../../images/bodydrag.png);
+        background-size: cover;
+        background-repeat: no repeat;
+        
+          h2{
+            display: flex;
+            justify-content: flex-end;
+            padding-right: 1rem;
+            color: var(--color-texblack);
+            font-weight: 500; font-family: cursive;
+        }
+ }
+
+
+//intermedio//
+.intermedio-1{
+    @include card__base;
+    background-image: url(../../images/cenir.png);
+    background-size: cover;
+    background-repeat: no repeat;
+    
+      h2{
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 1rem;
+        color: var(--color-texblack);
+        font-weight: 500; font-family: cursive;
+    }
+}
+    .intermedio-2{
+        @include card__base;
+        background-image: url(../../images/transiciones.png);
+        background-size: cover;
+        background-repeat: no repeat;
+        
+          h2{
+            display: flex;
+            justify-content: flex-end;
+            padding-right: 1rem;
+            color: var(--color-texblack);
+            font-weight: 500; font-family: cursive;
+        }
+    }
+        .intermedio-3{
+            @include card__base;
+            background-image: url(../../images/fluidez.png);
+            background-size: cover;
+            background-repeat: no repeat;
+            
+              h2{
+                display: flex;
+                justify-content: flex-end;
+                padding-right: 1rem;
+                color: var(--color-texblack);
+                font-weight: 500; font-family: cursive;
+           
+        }
+    }
+
+.avanzado-1{
+    @include card__base;
+    background-image: url(../../images/saltos.png);
+    background-size: cover;
+    background-repeat: no repeat;
+    
+      h2{
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 1rem;
+        color: var(--color-texblack);
+        font-weight: 500; font-family: cursive;
+    }
+}
+    .avanzado-2{
+        @include card__base;
+        background-image: url(../../images/trucos.png);
+        background-size: cover;
+        background-repeat: no repeat;
+        
+          h2{
+            display: flex;
+            justify-content: flex-end;
+            padding-right: 1rem;
+            color: var(--color-texblack);
+            font-weight: 500; font-family: cursive;
+        }
+        }
+        .avanzado-3{
+            @include card__base;
+            background-image: url(../../images/strapples.png);
+            background-size: cover;
+            background-repeat: no repeat;
+            
+              h2{
+                display: flex;
+                justify-content: flex-end;
+                padding-right: 1rem;
+                color: var(--color-texblack);
+                font-weight: 500; font-family: cursive;
+          
+        }
+    }
+

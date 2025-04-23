@@ -1,4 +1,4 @@
-/* PAGINA NOSOTROS */
+
 main{
     #nosotros{
         width: 100vw;
@@ -9,7 +9,10 @@ main{
         justify-content: center;
         margin-top: 3rem ;
         margin-bottom: 0.9rem;
-        color: var(--secundary-button);
+     
+        h1{
+            color: var(--secundary-button);
+        }
         }
         .nosotros__article{
             display: flex;
