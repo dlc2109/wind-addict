@@ -7,6 +7,7 @@
 @use "./components/buttons";
 @use "./components/cards";
 /*layouts*/
+/*nav-bootstrap*/
 @use "./layout/header";
 /*pages*/
 /*inicio*/
@@ -15,6 +16,8 @@
 @use "./pages/nosotros";
 /*lecciones*/
 @use "./pages/lecciones";
+/*safaris*/
+@use "./pages/safaris";
 //footer//
 @use"./layout/footer";
 
@@ -23,41 +26,41 @@
 
 /* pagina safaris */
 
-.seccion__safaris{
-    width: 100%;
-    height: 100%;
+// .seccion__safaris{
+//     width: 100%;
+//     height: 100%;
 
 
-}
+// }
 
-.safaris__tittle{
-    display: flex;
-  justify-content: center;
-  margin-top: 3rem;
-}
-.safaris__article{
-    display: flex;
-    max-width: 100%;
-    margin: 0 72px;
-    text-align: justify;
+// .safaris__tittle{
+//     display: flex;
+//   justify-content: center;
+//   margin-top: 3rem;
+// }
+// .safaris__article{
+//     display: flex;
+//     max-width: 100%;
+//     margin: 0 72px;
+//     text-align: justify;
 
-}
-.container__video1{
-    display: block;
-     text-align: center;
-    margin-top: 48px;
+// }
+// .container__video1{
+//     display: block;
+//      text-align: center;
+//     margin-top: 48px;
 
 
-}
-.container__video2{
-    display: block;
-     text-align: center;
-    margin-top: 48px;
-}
-.video{
-    box-shadow: 0 0 5px 0 white;
-    border-radius: 8px;
-}
+// }
+// .container__video2{
+//     display: block;
+//      text-align: center;
+//     margin-top: 48px;
+// }
+// .video{
+//     box-shadow: 0 0 5px 0 white;
+//     border-radius: 8px;
+// }
 
                                   /* pagina contactos */
 
@@ -673,12 +676,13 @@ form{
 //     text-align: center;
 // }
 
-/* .nav__logo{
-    padding-top: 67px;
-    margin: 0;
-    width: 160px;
-    height: 190px;
-}   */
+// .nav__logo{
+ //   padding-top: 67px;
+ //   margin: 0;
+ //   width: 160px;
+ //   height: 190px;
+//}   
+    
 
 // nav bootstrap //
 
@@ -693,9 +697,9 @@ form{
 //     height: auto;
 
 // }
-/* .nav-item{
-    padding: 0 0;
-} */
+// .nav-item{
+  //  padding: 0 0;
+//} 
 // .container{
 //     height: 20px;
 // }

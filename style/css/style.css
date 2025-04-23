@@ -418,6 +418,7 @@ p, article {
 }
 
 /*layouts*/
+/*nav-bootstrap*/
 header {
   display: flex;
   justify-content: space-between;
@@ -489,16 +490,6 @@ header .buttom__nav:hover {
   border: solid 1px var(--secundary-button-hover);
 }
 
-/* .nav__logo{
-    padding-top: 67px;
-    margin: 0;
-    width: 160px;
-    height: 190px;
-}   */
-/* nav bootstrap */
-/* .nav-item{
-    padding: 0 0;
-} */
 /*pages*/
 /*inicio*/
 /* section hero /inicio */
@@ -881,6 +872,37 @@ main .fundadores img {
 /* CURSO INICIANTE CARDS*/
 /* CURSO INTERMEDIO */
 /* CURSO AVANZADO */
+/*safaris*/
+#safaris {
+  width: 100%;
+  height: 100%;
+}
+#safaris .safaris__tittle {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+#safaris .safaris__article {
+  display: flex;
+  max-width: 100%;
+  margin: 0 72px;
+  text-align: justify;
+}
+#safaris .container__video1 {
+  display: block;
+  text-align: center;
+  margin-top: 48px;
+}
+#safaris .container__video2 {
+  display: block;
+  text-align: center;
+  margin-top: 48px;
+}
+#safaris .video {
+  box-shadow: 0 0 5px 0 white;
+  border-radius: 8px;
+}
+
 footer {
   width: 100%;
   background-color: var(--color-button);
@@ -956,41 +978,6 @@ footer .icon__container .footer__contacto {
 }
 
 /* pagina safaris */
-.seccion__safaris {
-  width: 100%;
-  height: 100%;
-}
-
-.safaris__tittle {
-  display: flex;
-  justify-content: center;
-  margin-top: 3rem;
-}
-
-.safaris__article {
-  display: flex;
-  max-width: 100%;
-  margin: 0 72px;
-  text-align: justify;
-}
-
-.container__video1 {
-  display: block;
-  text-align: center;
-  margin-top: 48px;
-}
-
-.container__video2 {
-  display: block;
-  text-align: center;
-  margin-top: 48px;
-}
-
-.video {
-  box-shadow: 0 0 5px 0 white;
-  border-radius: 8px;
-}
-
 /* pagina contactos */
 form {
   padding: 16px 24px;
@@ -1425,14 +1412,5 @@ label {
   }
 }
 /* barra navegacion */
-/* .nav__logo{
-    padding-top: 67px;
-    margin: 0;
-    width: 160px;
-    height: 190px;
-}   */
-/* .nav-item{
-    padding: 0 0;
-} */
 
 /*# sourceMappingURL=style.css.map */
