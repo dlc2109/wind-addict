@@ -4,7 +4,7 @@
     width: 340px;
     height: 380px;
     border-radius: 8px;
-    box-shadow: 0 0 10px 0 var(--color-headings);
+    box-shadow: 0 0 8px 0 var(--color-headings);
     margin: 0;
     margin-top: 48px;
 }
@@ -13,7 +13,7 @@
     .img_1 {
         height: 200px;
         margin: auto;
-        margin: 4px 4px;
+         margin: 4px 4px;
         border-radius: 8px;
         background-image: url(../../images/cardkite.png);
         background-size: cover;
@@ -52,4 +52,13 @@
         text-align: justify;
     }
     
+}
+@media (max-width: 480px) {
+    .cards {
+        width: 250px;
+        height: 380px;
+        margin: 0;
+        margin-top: 48px;
+    }
+ 
 }

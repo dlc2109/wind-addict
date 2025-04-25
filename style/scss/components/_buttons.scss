@@ -17,26 +17,31 @@
         &:hover{
             color:var(--secundary-button);
             transition: all 0.5s ease 0s;
-            border: solid 1px var(--secundary-button-hover);
-          
-       }
+            border: solid 1px var(--secundary-button-hover);  
+        }   
     }
+
 /*hero buttom*/
     .hero__cta{
         width: 200px;
         height: 48px;
         background-color:#60f7ff ;
         font-size: 18px;
-        color: #00010E;
-        border-radius: 100px;
+        color: #000000;
+        border: none;
+        border-radius: 20px;
         font-weight: 500;
-        box-shadow: 0 2px 10px 0px #010426;
+        box-shadow: 0 2px 10px 0px #010323;
         margin-top: 4px;
         margin-left: 10px;
+        cursor: pointer;
         &:hover{
-            background-color:#04d7e2 ;
-            border-radius: 100px;
-            font-size: 18px ; color: #000000;
+            background-color:var(--secundary-button) ;
+            border-radius: 20px;
+            box-shadow: 0 2px 10px 0px #010323;
+            transition: all 0.2s ease-in-out 0s;
+         
+            color: #000000;
             font-weight: 500;
             box-shadow: none;
         }
@@ -112,11 +117,37 @@
             }
         
     }
-
-
-
-
-
+@media screen and (max-width: 768px) {
+    .principal__btn{
+        width: 140px;
+        height: 38px;
+        padding: 6px;
+      
+    }
+        .nosotros__btn{
+            width: 150px;
+            height: 40px;
+        }
+        .nosotros__btn a{
+            font-family: "Poppins", serif; font-size: 14px;
+            font-weight: 500;
+            }
+    }
+   @media screen and (max-width: 480px) {
+  
+    .hero__cta{
+       width: 120px;
+        height: 32px;
+        background-color:#60f7ff ;
+        margin-left: 0;
+        font-size: 14px;  
+      }
+      .card__cta{
+        width: 150px;
+        height: 34px;
+        font-size: 14px;  
+      }
+}
 
 
 
@@ -161,5 +192,4 @@
         //    transition: all 0.2s ease-out 0s;
         
         // }
-        
         

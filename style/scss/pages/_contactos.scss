@@ -1,0 +1,204 @@
+#formulario{
+    form{
+    padding: 16px 24px;
+    max-width: 600px;
+    margin: auto;
+
+    margin-top: 80px;
+    box-shadow: 0px 5px 25px  rgb(58, 58, 58);
+    h1{
+        text-align: center;
+        padding-top: 24px;
+        padding-bottom: 24px;
+        font-weight: 400;
+     }
+ }
+ .container__formulario{
+    fieldset{
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        border: 1px solid var(--secundary-button);
+        padding: 16px 24px;
+        legend{
+            color: whitesmoke;
+            font-family: sans-serif ; font-size: 22px; font-weight: 400;
+            padding: 0 10px;
+          }
+         }
+    
+ }
+  .form__input{
+    label{
+        line-height: 0px;
+        color: var(--color-headings);
+        font-family: "Poppins", serif; font-weight: 300; font-size: 16px; color: #D9D9D9;
+       justify-items: start;
+       margin: 16px 16px;
+    
+    }
+    input{
+        width: 95%;
+        height: 48px;
+        box-sizing: border-box;
+        background-color: black; color: grey;
+        padding: 6px 12px;
+        border: none;
+        border-radius: 5px;
+        border-left: solid 2px var(--secundary-button);
+        font-size: 12px;
+        margin: 12px 16px;
+
+    }
+    textarea{
+        width: 95%;
+        height: 48px;
+        box-sizing: border-box;
+        background-color: black; color: grey;
+        padding: 6px 12px;
+        border: none;
+        border-radius: 5px;
+        border-left: solid 2px var(--secundary-button);
+        font-size: 12px;
+        margin: 12px 16px;
+    
+    }
+ }
+ .form__submit{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    margin-bottom: 12px;
+    
+    .form__btn{
+        font-size: 16px;
+        border: none;
+        background-color: var(--secundary-button);
+        color: var(--color-texblack);
+        &:hover{
+            background-color: var(--secundary-button-hover);
+            transition: all 0.2s ease-in 0s;
+          }
+       }
+   }
+}
+#location{
+    width: 100%;
+    height: 100%;
+    margin-top: 48px;
+    margin-bottom: 82px;
+    .location__content{
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .iframe__location{
+        display: flex;
+         justify-content: center;
+         margin-top: 48px;
+        
+        }
+        .lecciones__btn{
+            margin: 0;
+            box-shadow:none ;
+        }
+        
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// form{
+//     padding: 16px 24px;
+//     max-width: 600px;
+//     margin: auto;
+
+//     margin-top: 80px;
+//     box-shadow: 0px 5px 25px  rgb(58, 58, 58);
+//  }
+//  legend{
+//     color: whitesmoke;
+//     font-family: sans-serif ; font-size: 22px; font-weight: 400;
+//     padding: 0 10px;
+//   }
+
+//  fieldset{
+//     width: 100%;
+//     height: auto;
+//     margin: 0 auto;
+//     border: 1px solid var(--secundary-button);
+//     padding: 16px 24px;
+//      }
+
+//  input, textarea{
+//     width: 95%;
+//     height: 48px;
+//     box-sizing: border-box;
+//     background-color: black; color: grey;
+//     padding: 6px 12px;
+//     border: none;
+//     border-radius: 5px;
+//     border-left: solid 2px var(--secundary-button);
+//     font-size: 12px;
+//     margin: 12px 16px;
+
+// }
+//  #contacto h1{
+//     text-align: center;
+//     padding-top: 24px;
+//     padding-bottom: 24px;
+//  }
+//  label{
+//     line-height: 0px;
+//     color: var(--color-headings);
+//     font-family: "Poppins", serif; font-weight: 300; font-size: 16px; color: #D9D9D9;
+//    justify-items: start;
+//    margin: 16px 16px;
+
+// }
+// .form__submit{
+// width: 50%;
+// margin-left: 90px;
+// margin-bottom: 12px;
+// display: block;
+
+// }
+// .form__btn{
+//     font-size: 16px;
+//     border: none;
+//     background-color: var(--secundary-button);
+//     color: var(--color-texblack);
+// }
+// .form__btn:hover{
+//     background-color: var(--secundary-button-hover);
+//     transition: all 0.2s ease-in 0s;
+// }
+// locacion /contacto //
+// #location{
+//     width: 100%;
+//     height: 100%;
+//     margin-top: 48px;
+//     margin-bottom: 82px;
+// }
+// .location__content{
+//     text-align: center;
+//     text-transform: uppercase;
+// }
+// .iframe__location{
+// display: flex;
+//  justify-content: center;
+//  margin-top: 48px;
+
+// }

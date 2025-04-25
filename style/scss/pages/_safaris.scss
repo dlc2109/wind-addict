@@ -26,15 +26,29 @@
         margin-top: 48px;
     }
     .video{
+        width: 80%;
+        height: 500px;
         box-shadow: 0 0 5px 0 white;
         border-radius: 8px;
     }
 }
 
-
-
-
-
+@media screen and (max-width: 768px) {
+    #safaris{
+        
+      
+    .container__video1{
+        margin-top: 24px;
+    }
+    .container__video2{
+        margin-top: 24px;
+    }
+    .video{
+        width: 80%;
+        height: 300px;
+    }  
+  }
+}
 
 
 

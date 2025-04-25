@@ -74,10 +74,26 @@ header{
        }
     }
   }
+    @media screen and (max-width: 768px) {
+       
+       .buttom__nav{
+            margin-left: 24px;  
+        }
+        .navbar-toggler{
+            box-shadow: none;
+            &:hover{
+                box-shadow: none;
+            }
+        }
+    }
 
-  
-     
-  
+  @media screen and (max-width: 480px) {
+    header{
+        .buttom__nav{
+      visibility: hidden;
+        }
+    }
+  }  
 
 //  .nav__ul .nav__item{
 //     list-style: none;

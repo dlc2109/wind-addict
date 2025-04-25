@@ -1,6 +1,7 @@
 
 h1{
     font-family: "Poppins", serif; font-weight: 600; font-size: 24px; color: #fff;
+   
 
 }
 h2{
@@ -13,3 +14,44 @@ p,article{
     font-family: "Poppins", serif; font-weight: 300; font-size: 16px; color: #f0f0f0;
 
 }
+@media screen and (max-width: 768px) {
+    body{
+    h1{
+        font-size: 1.4rem;
+    }
+    h2{
+        font-size: 1.2rem;
+    }
+    h3{
+        font-size: 1rem;
+    }
+    p{
+        font-size: 1rem;
+    }
+    article{
+        font-size: 1rem;
+    }
+    }
+}
+@media screen and (max-width: 480px) {
+    body{
+    h1{
+        font-size: 1.2rem;
+    }
+    h2{
+        font-size: 1rem;
+    }
+    h3{
+        font-size: 0.9rem;
+    }
+    p{
+        font-size: 0.9rem;
+    }
+    article{
+        font-size: 0.9rem;
+    }
+    }
+}
+
+
+

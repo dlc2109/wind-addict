@@ -5,10 +5,14 @@ height: 125px;
 margin-top: 100px;
 background-size: contain;
 background-repeat: no-repeat;
+
 }
+
+
 .img__iko{
     @include img-certificaciones;
     background-image: url(../../../images/iko.png);
+    
 }
 .img__logo-certificaciones{
     @include img-certificaciones;
@@ -22,10 +26,11 @@ background-repeat: no-repeat;
     margin-top: 18px;
     background-size: contain;
 }
+
 /*base de cards/lecciones*/
 @mixin card__base (){
-    width: 280px;
-    height: 350px;
+    width: 340px;
+    height: 370px;
     border-radius: 8px;
     box-shadow: 0px 0px 10px 0px rgb(167, 167, 167);
 }
@@ -34,20 +39,21 @@ background-repeat: no-repeat;
     background-image: url(../../images/nociones\ basicas.png);
     background-size: cover;
     background-repeat: no-repeat;
+ 
 
-   
     h2{
     display: flex;
     justify-content: flex-end;
     padding-right: 1rem;
+    margin-top: 8px;
     color: var(--color-texblack);
-    font-weight: 500; font-family: cursive;
+    font-weight: 600; font-family: cursive;
 
  }
 }
 .iniciante-2{
     @include card__base;
-  background-image: url(/images/waterstart.png);
+     background-image: url(/images/waterstart.png);
     background-size: cover;
     background-repeat: no repeat;
     background-position-x: 300%;
@@ -56,8 +62,9 @@ background-repeat: no-repeat;
         display: flex;
         justify-content: flex-end;
         padding-right: 1rem;
+        margin-top: 8px;
         color: var(--color-texblack);
-        font-weight: 500; font-family: cursive;
+        font-weight: 600; font-family: cursive;
     }
 
 }
@@ -72,8 +79,9 @@ background-repeat: no-repeat;
             display: flex;
             justify-content: flex-end;
             padding-right: 1rem;
+            margin-top: 8px;
             color: var(--color-texblack);
-            font-weight: 500; font-family: cursive;
+            font-weight: 600; font-family: cursive;
         }
  }
 
@@ -89,12 +97,13 @@ background-repeat: no-repeat;
         display: flex;
         justify-content: flex-end;
         padding-right: 1rem;
+        margin-top: 8px;
         color: var(--color-texblack);
-        font-weight: 500; font-family: cursive;
+        font-weight: 600; font-family: cursive;
     }
 }
     .intermedio-2{
-        @include card__base;
+       @include card__base;
         background-image: url(../../images/transiciones.png);
         background-size: cover;
         background-repeat: no repeat;
@@ -103,8 +112,9 @@ background-repeat: no-repeat;
             display: flex;
             justify-content: flex-end;
             padding-right: 1rem;
+            margin-top: 8px;
             color: var(--color-texblack);
-            font-weight: 500; font-family: cursive;
+            font-weight: 600; font-family: cursive;
         }
     }
         .intermedio-3{
@@ -117,8 +127,9 @@ background-repeat: no-repeat;
                 display: flex;
                 justify-content: flex-end;
                 padding-right: 1rem;
+                margin-top: 8px;
                 color: var(--color-texblack);
-                font-weight: 500; font-family: cursive;
+                font-weight: 600; font-family: cursive;
            
         }
     }
@@ -133,8 +144,9 @@ background-repeat: no-repeat;
         display: flex;
         justify-content: flex-end;
         padding-right: 1rem;
+        margin-top: 8px;
         color: var(--color-texblack);
-        font-weight: 500; font-family: cursive;
+        font-weight: 600; font-family: cursive;
     }
 }
     .avanzado-2{
@@ -147,8 +159,9 @@ background-repeat: no-repeat;
             display: flex;
             justify-content: flex-end;
             padding-right: 1rem;
+            margin-top: 8px;
             color: var(--color-texblack);
-            font-weight: 500; font-family: cursive;
+            font-weight: 600; font-family: cursive;
         }
         }
         .avanzado-3{
@@ -160,10 +173,26 @@ background-repeat: no-repeat;
               h2{
                 display: flex;
                 justify-content: flex-end;
+                margin-top: 8px;
                 padding-right: 1rem;
                 color: var(--color-texblack);
-                font-weight: 500; font-family: cursive;
+                font-weight: 600; font-family: cursive;
           
         }
     }
-
+    @media screen and (max-width: 768px) {
+         .card__base {
+            width: 220px;
+            height: 280px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px 0px rgb(167, 167, 167);
+        }
+    }
+    @media screen and (max-width: 480px) {
+        .card__base {
+            width: 60px;
+            height: 220px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px 0px rgb(167, 167, 167);
+        }
+    }

@@ -1,5 +1,10 @@
 
-main{
+.nosotros-body {
+    background-color: rgb(236, 231, 231);
+   
+  article{
+    color: black;
+  }
     #nosotros{
         width: 100vw;
         height: 100vh;
@@ -9,63 +14,76 @@ main{
         justify-content: center;
         margin-top: 3rem ;
         margin-bottom: 0.9rem;
-     
         h1{
             color: var(--secundary-button);
         }
-        }
+     }
         .nosotros__article{
             display: flex;
             width: 100%;
             padding: 0 72px;
             line-height: 1.5;
             text-align: justify;
-            }
+        }
             .fundadores{
                 display: flex;
                 flex-direction: row;
                 align-items: center;
-                justify-content: space-around;
+                justify-content: center;
+                gap: 16px;
                 flex-wrap: wrap;
                 margin-top: 48px;
                 margin-bottom: 48px;
                 padding: 0 72px;
                 img{
-                    width: 220px;
-                    height: 220px;
+                    width: 212px;
+                    height: 212px;
+                    background-color:rgb(163, 163, 163);
+                    margin: 0 24px;
                 }
         }
-         
-               }  
-               #section-location{
-                width: 100%;
-                height: 100%;
-                .locacion__tittle{
+   }  
+    #section-location{
+               width: 100%;
+               height: 100%;
+               .locacion__tittle{
                     display: flex;
                     justify-content: center;
                     margin-top: 2rem ;
                     margin-bottom: 0.9rem;
                     }
-                    .parrafo__locacion{
+                .parrafo__locacion{
                         display: flex;
                         width: 100%;
                         padding: 0 72px;
                         line-height: 1.6;
                         text-align: justify;
-                        }  
-                   }
+                p{
+                       color: black;
+                        }         
+                 }  
+         }
 
-                 #location-map{
-                       display: flex;
-                       flex-direction: column;
-                      align-items: center;
-                      justify-content: center;
-                      margin-top: 48px;
-                 }
+    #location-map{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 48px;
+     }
+        .nosotros__btn{
+                box-shadow: 0 0 5px 0  black;
+         }
 
 
-
-
+  @media screen and (max-width: 768px) {
+    .fundadores{
+        img{
+            margin: 16px ;
+        }
+      }    
+    }
+         
 
 
 
