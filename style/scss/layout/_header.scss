@@ -90,7 +90,8 @@ header{
   @media screen and (max-width: 480px) {
     header{
         .buttom__nav{
-      visibility: hidden;
+            display: none;
+
         }
     }
   }  

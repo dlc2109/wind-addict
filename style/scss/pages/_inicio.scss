@@ -246,7 +246,7 @@ main{
             
             .hero__content{
                 height: 70vh;
-                background-position-x:52%;
+                background-position-x:62%;
                 padding: 0 45px;
                
             }
@@ -271,9 +271,22 @@ main{
     } 
     
  }
-
-
+ #carouselExampleFade{
+ .carousel-control-prev{
+   width: 5%;
+   height: 10%;
+   border-radius: 10px;
+   padding: 4px 4px;
+       }
+.carousel-control-next{
+    border-radius: 10px;
+    width: 5%;
+    height: 10%;
+    padding: 4px 4px;
+      }
+   }
 }
+
 
     
 

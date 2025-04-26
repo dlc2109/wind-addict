@@ -135,7 +135,36 @@
    
 }
  
-
+@media screen and (max-width: 480px) {
+    .lecciones__subtitulo{
+        p{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 48px;
+            color: #ffffff;
+            padding:0  32px;
+        }
+    }
+    .container__cards{
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
+        margin-top: 34px;
+    }
+    .container__cards{
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
+        margin-top: 34px;
+    }
+    .container_avanzado{
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
+        margin-top: 34px;
+    }
+   
+}
 
 
 

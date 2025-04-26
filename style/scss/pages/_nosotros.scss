@@ -71,6 +71,13 @@
             justify-content: center;
             margin-top: 48px;
      }
+     .nosotros__iframe{
+        width: 600px;
+        display: flex;
+         justify-content: center;
+         margin-top: 48px;
+        
+     }
         .nosotros__btn{
                 box-shadow: 0 0 5px 0  black;
          }
@@ -83,7 +90,20 @@
         }
       }    
     }
-         
+    @media screen and (max-width: 480px) {
+        .nosotros__iframe{
+            width: 350px;
+            height: 350px;
+          
+             margin-top: 1rem;
+            
+         }
+}
+
+ 
+ 
+    
+       
 
 
 

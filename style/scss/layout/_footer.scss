@@ -97,7 +97,6 @@ footer{
             text-align: center;
             margin-top: 4rem;
         }
-    
     }
     .icon__container{
         grid-area: icon;
@@ -122,6 +121,47 @@ footer{
         width: 3.5rem;
          height: 3.5rem;
          margin: 1rem;
+       }
+    }
 }
+@media screen and (max-width: 480px) {
+    footer{
+        width: 100%;
+        background-color: var(--color-button);
+        display: grid;
+        grid-template-areas:
+        "nav      nav      nav"
+        "icon      icon        icon"
+        "contact     contact     contact"
+        "copy     copy      copy";
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows:  150px;
+        .--footer-nav {
+            grid-area: nav;
+            text-align: center;
+            margin-top: 4rem;
+            .footer-ul{
+                display: flex;
+                flex-direction: row;      
+            }  
+        }
+    }
+ 
+    .footer__span{
+        margin: 1rem;
+      margin-right: 2rem;
+
+    }
+    .iconos{
+        display: flex;
+        flex-direction: row;
+    .footer__icon{
+        width: 2.5rem;
+         height: 2.5rem;
+         margin: 1rem;
+       }
+    }
+    .footer__contacto{  
+        margin-left: 7rem;
     }
 }
