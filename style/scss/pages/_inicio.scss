@@ -97,6 +97,7 @@ main{
             text-align: justify;
         }
     #carouselExampleFade{
+        z-index: -1;
         .carousel-inner{
             width: 70%;
             height: 70%;
@@ -108,6 +109,7 @@ main{
                  height: 500px;
                 box-shadow: 0px 0 10px 0px whitesmoke;
                 border-radius: 15px;
+            
                 }
                 .carousel__subtitulo{
                     color: var(--color-headings);
@@ -126,6 +128,7 @@ main{
        width: 5%;
        height: 8%;
        margin-left: 5%;
+       z-index: -1;
         }
     .carousel-control-next{
         margin-top: 14%;
@@ -135,6 +138,7 @@ main{
         width: 5%;
         height: 8%;
         margin-right: 5%;
+        z-index: -1;
        }
     }
  /* section 4 inicio/ certificaciones  */
@@ -144,8 +148,8 @@ main{
     .certificaciones__titulo{
         display: flex;
         justify-content: center;
-        margin: 0 4.5rem 0.9rem 4.5rem;
-        /* margin-bottom: 0.9rem; */
+        margin: 1.5rem 4.5rem 0.9rem 4.5rem;
+      
        }
        .certificaciones__parrafo{
         display: flex;
@@ -310,154 +314,3 @@ main{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-    // SECTION 3 /inicio//
-    
-    // #section-safaris{
-    //     width: 100%;
-    //      height: 100%;
-    // }
-    // .section3__titulo, h2{
-    //     display: flex;
-    //     justify-content: center;
-    //     margin-top: 2rem ;
-    //     margin-bottom: 0.9rem;
-    //     color: var(--secundary-button);
-    
-    // }
-    // .section3__parrafo{
-    //     display: flex;
-    //     width: 100%;
-    //     padding: 0 72px;
-    //     line-height: 1.6;
-    //     text-align: justify;
-    // }
-    // .d-block {
-    // width: 100%;
-    //  height: 500px;
-    // box-shadow: 0px 0 10px 0px whitesmoke;
-    // border-radius: 15px;
-    
-    // }
-    
-    // .w-100 {
-    //     width: 100%;
-    //     height: 50%;
-    
-    // }
-    
-    
-    // .carousel__subtitulo{
-    //     color: var(--color-headings);
-    //     font-weight: 500; font-family: cursive;
-    //     letter-spacing: 1.5px;
-    
-    // }
-    // .carousel-control-prev{
-    //     margin-top: 18%;
-    //    border: 1px solid var(--color-text);
-    //    background: linear-gradient(109deg, rgba(0, 1, 13, 0.30) 12.87%, rgba(72, 184, 199, 0.30) 86.46%), #00010E;
-    //    border-radius: 20px;
-    //    width: 5%;
-    //    height: 8%;
-    //    margin-left: 5%;
-    
-    // }
-    // .carousel-control-next{
-    //     margin-top: 18%;
-    //     border: 1px solid var(--color-text);
-    //     background: linear-gradient(109deg, rgba(0, 1, 13, 0.30) 12.87%, rgba(72, 184, 199, 0.30) 86.46%), #00010E;
-    //     border-radius: 20px;
-    //     width: 5%;
-    //     height: 8%;
-    //     margin-right: 5%;
-    // }
-    // .carousel-inner{
-    //     width: 70%;
-    //     height: 70%;
-    //     margin: auto;
-    // }
-    
-       // section 4 inicio/ certificaciones  //
-    
-    //    #section-certificaciones{
-    //     width: 100%;
-    //     height: 100%;
-    // }
-    //    .certificaciones__titulo{
-    //     display: flex;
-    //     justify-content: center;
-    //     margin: 0 4.5rem 0.9rem 4.5rem;
-    //     /* margin-bottom: 0.9rem; */
-    //    }
-    
-    //    .certificaciones__parrafo{
-    //     display: flex;
-    //     width: 100%;
-    //     padding: 0 72px;
-    //     line-height: 1.6;
-    //     text-align: justify;
-    // }
-    //    .img__certificaciones{
-    //     display: flex;
-    //     flex-direction: row;
-    //     flex-wrap: wrap;
-    //     align-items: center;
-    //     justify-content: center;
-    //     margin: 48px 72px 100px 72px;
-    //    }
-    //    .logo__container{
-    
-    //     display: flex;
-    //     align-items: center;
-    //     margin:2rem;
-    //     justify-content: center;
-    //     align-items: center;
-    //     width: 150px;
-    //     height: 150px;
-    //     background-color: var(--color-texblack);
-    //     border-radius: 50%;
-    //     box-shadow:var(--color-text) 0px 0px 15px 0px;
-    
-       
-    //    .img__iko{
-    
-    //     background-image: url(../../images/iko.png);
-    //     width: 125px;
-    //     height: 125px;
-    //     margin-top: 100px;
-    //     background-size: contain;
-    //     background-repeat: no-repeat;
-    
-    //    }
-    //    .img__logo-certificaciones{
-    
-    //     background-image: url(../../images/logo-winda.png);
-    //     width: 125px;
-    //     height: 125px;
-    //     margin-top: 100px;
-    //     background-size: contain;
-    //     background-repeat: no-repeat;
-    
-    //    }
-    // .img__logo-firstaid{
-    //     background-image: url(../../images/firstsaid.png);
-    //     width: 75px;
-    //     height: 125px;
-    //     margin-top: 18px;
-    //     background-size: contain;
-    //     background-repeat: no-repeat;
-    // }
- 
