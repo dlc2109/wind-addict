@@ -23,7 +23,7 @@
 
 /*hero buttom*/
     .hero__cta{
-        width: 200px;
+        width: 180px;
         height: 48px;
         background-color:#60f7ff ;
         font-size: 18px;
@@ -118,6 +118,10 @@
         
     }
 @media screen and (max-width: 768px) {
+    .hero__cta{
+        width: 145px;
+        height: 44px;
+       
     .principal__btn{
         width: 140px;
         height: 38px;
@@ -133,11 +137,12 @@
             font-weight: 500;
             }
     }
+}
    @media screen and (max-width: 480px) {
   
     .hero__cta{
        width: 120px;
-        height: 32px;
+        height: 38px;
         background-color:#60f7ff ;
         margin-left: 0;
         font-size: 14px;  

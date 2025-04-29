@@ -14,7 +14,7 @@ main{
             justify-content: center;
             height: 100vh;
             padding: 0 72px;
-            background-image: url(../../images/image_background.png);
+            background-image: url(../../../images/image_background.webp);
             background-repeat: no-repeat ;
             background-size: cover;
             background-position: center;
@@ -238,6 +238,16 @@ main{
            .--3{
                  margin-top: 0.2rem;
              }
+             }
+             #section-safaris{
+                .carousel-control-prev{
+                   width: 8%;
+                   height: 10%;
+                    }
+                .carousel-control-next{
+                    width: 8%;
+                   height: 10%;
+                   }
              }
             #section-certificaciones{
              

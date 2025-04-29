@@ -37,7 +37,7 @@
   height: 370px;
   border-radius: 8px;
   box-shadow: 0px 0px 10px 0px rgb(167, 167, 167);
-  background-image: url(../../images/nociones\ basicas.png);
+  background-image: url(../../../images/nociones\ basicas.webp);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -56,7 +56,7 @@
   height: 370px;
   border-radius: 8px;
   box-shadow: 0px 0px 10px 0px rgb(167, 167, 167);
-  background-image: url(/images/waterstart.png);
+  background-image: url(../../../images/waterstart.webp);
   background-size: cover;
   background-repeat: no repeat;
   background-position-x: 300%;
@@ -76,7 +76,7 @@
   height: 370px;
   border-radius: 8px;
   box-shadow: 0px 0px 10px 0px rgb(167, 167, 167);
-  background-image: url(../../../images/bodydrag.png);
+  background-image: url(../../../images/bodydrag.webp);
   background-size: cover;
   background-repeat: no repeat;
 }
@@ -95,7 +95,7 @@
   height: 370px;
   border-radius: 8px;
   box-shadow: 0px 0px 10px 0px rgb(167, 167, 167);
-  background-image: url(../../images/cenir.png);
+  background-image: url(../../../images/cenir.webp);
   background-size: cover;
   background-repeat: no repeat;
 }
@@ -114,7 +114,7 @@
   height: 370px;
   border-radius: 8px;
   box-shadow: 0px 0px 10px 0px rgb(167, 167, 167);
-  background-image: url(../../images/transiciones.png);
+  background-image: url(../../../images/transiciones.webp);
   background-size: cover;
   background-repeat: no repeat;
 }
@@ -133,7 +133,7 @@
   height: 370px;
   border-radius: 8px;
   box-shadow: 0px 0px 10px 0px rgb(167, 167, 167);
-  background-image: url(../../images/fluidez.png);
+  background-image: url(../../../images/fluidez.webp);
   background-size: cover;
   background-repeat: no repeat;
 }
@@ -152,7 +152,7 @@
   height: 370px;
   border-radius: 8px;
   box-shadow: 0px 0px 10px 0px rgb(167, 167, 167);
-  background-image: url(../../images/saltos.png);
+  background-image: url(../../../images/saltos.webp);
   background-size: cover;
   background-repeat: no repeat;
 }
@@ -171,7 +171,7 @@
   height: 370px;
   border-radius: 8px;
   box-shadow: 0px 0px 10px 0px rgb(167, 167, 167);
-  background-image: url(../../images/trucos.png);
+  background-image: url(../../../images/trucos.webp);
   background-size: cover;
   background-repeat: no repeat;
 }
@@ -190,7 +190,7 @@
   height: 370px;
   border-radius: 8px;
   box-shadow: 0px 0px 10px 0px rgb(167, 167, 167);
-  background-image: url(../../images/strapples.png);
+  background-image: url(../../../images/strapples.webp);
   background-size: cover;
   background-repeat: no repeat;
 }
@@ -339,7 +339,7 @@ p, article {
 
 /*hero buttom*/
 .hero__cta {
-  width: 200px;
+  width: 180px;
   height: 48px;
   background-color: #60f7ff;
   font-size: 18px;
@@ -434,16 +434,20 @@ p, article {
 }
 
 @media screen and (max-width: 768px) {
-  .principal__btn {
+  .hero__cta {
+    width: 145px;
+    height: 44px;
+  }
+  .hero__cta .principal__btn {
     width: 140px;
     height: 38px;
     padding: 6px;
   }
-  .nosotros__btn {
+  .hero__cta .nosotros__btn {
     width: 150px;
     height: 40px;
   }
-  .nosotros__btn a {
+  .hero__cta .nosotros__btn a {
     font-family: "Poppins", serif;
     font-size: 14px;
     font-weight: 500;
@@ -452,7 +456,7 @@ p, article {
 @media screen and (max-width: 480px) {
   .hero__cta {
     width: 120px;
-    height: 32px;
+    height: 38px;
     background-color: #60f7ff;
     margin-left: 0;
     font-size: 14px;
@@ -469,35 +473,36 @@ p, article {
   width: 340px;
   height: 380px;
   border-radius: 8px;
-  box-shadow: 0 0 8px 0 var(--color-headings);
+  box-shadow: 0 0 8px 0 rgb(142, 142, 142);
   margin: 0;
   margin-top: 48px;
+  transition: 0.3s ease-in-out;
+}
+.cards:hover {
+  transform: scale(105%);
 }
 
 .cards .img_1 {
   height: 200px;
-  margin: auto;
   margin: 4px 4px;
   border-radius: 8px;
-  background-image: url(../../images/cardkite.png);
+  background-image: url(../../../images/cardkite.webp);
   background-size: cover;
   background-repeat: no repeat;
 }
 .cards .img_2 {
   height: 200px;
-  margin: auto;
   margin: 4px 4px;
   border-radius: 8px;
-  background-image: url(../../images/cardwing.jpg);
+  background-image: url(../../../images/cardwing.webp);
   background-size: cover;
   background-repeat: no repeat;
 }
 .cards .img_3 {
   height: 200px;
-  margin: auto;
   margin: 4px 4px;
   border-radius: 8px;
-  background-image: url(../../images/cardfoil.jpg);
+  background-image: url(../../../images/cardfoil.webp);
   background-size: cover;
   background-repeat: no repeat;
 }
@@ -625,7 +630,7 @@ main .container__hero .hero__content {
   justify-content: center;
   height: 100vh;
   padding: 0 72px;
-  background-image: url(../../images/image_background.png);
+  background-image: url(../../../images/image_background.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -837,6 +842,14 @@ main .container__hero .hero-parrafo {
   }
   .cards__container .--3 {
     margin-top: 0.2rem;
+  }
+  #section-safaris .carousel-control-prev {
+    width: 8%;
+    height: 10%;
+  }
+  #section-safaris .carousel-control-next {
+    width: 8%;
+    height: 10%;
   }
   #section-certificaciones .certificaciones__titulo {
     margin-top: 1.5rem;
@@ -1364,8 +1377,23 @@ footer .icon__container img {
   width: 5rem;
   height: 5rem;
   margin: 1rem;
+  animation: gelatine 1.5s infinite;
 }
-footer .icon__container .footer__contacto {
+@keyframes gelatine {
+  from, to {
+    transform: scale(1, 1);
+  }
+  25% {
+    transform: scale(0.9, 1.1);
+  }
+  50% {
+    transform: scale(1.1, 0.9);
+  }
+  75% {
+    transform: scale(0.95, 1.05);
+  }
+}
+footer .footer__contacto {
   grid-area: contact;
   text-align: center;
   margin: auto;

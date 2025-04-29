@@ -36,9 +36,10 @@ background-repeat: no-repeat;
 }
 .iniciante-1{
     @include card__base;
-    background-image: url(../../images/nociones\ basicas.png);
+    background-image: url(../../../images/nociones\ basicas.webp);
     background-size: cover;
     background-repeat: no-repeat;
+    
  
 
     h2{
@@ -53,7 +54,7 @@ background-repeat: no-repeat;
 }
 .iniciante-2{
     @include card__base;
-     background-image: url(/images/waterstart.png);
+     background-image: url(../../../images/waterstart.webp);
     background-size: cover;
     background-repeat: no repeat;
     background-position-x: 300%;
@@ -71,7 +72,7 @@ background-repeat: no-repeat;
  
     .iniciante-3{
         @include card__base;
-        background-image: url(../../../images/bodydrag.png);
+        background-image: url(../../../images/bodydrag.webp);
         background-size: cover;
         background-repeat: no repeat;
         
@@ -89,7 +90,7 @@ background-repeat: no-repeat;
 //intermedio//
 .intermedio-1{
     @include card__base;
-    background-image: url(../../images/cenir.png);
+    background-image: url(../../../images/cenir.webp);
     background-size: cover;
     background-repeat: no repeat;
     
@@ -104,7 +105,7 @@ background-repeat: no-repeat;
 }
     .intermedio-2{
        @include card__base;
-        background-image: url(../../images/transiciones.png);
+        background-image: url(../../../images/transiciones.webp);
         background-size: cover;
         background-repeat: no repeat;
         
@@ -119,7 +120,7 @@ background-repeat: no-repeat;
     }
         .intermedio-3{
             @include card__base;
-            background-image: url(../../images/fluidez.png);
+            background-image: url(../../../images/fluidez.webp);
             background-size: cover;
             background-repeat: no repeat;
             
@@ -136,7 +137,7 @@ background-repeat: no-repeat;
 
 .avanzado-1{
     @include card__base;
-    background-image: url(../../images/saltos.png);
+    background-image: url(../../../images/saltos.webp);
     background-size: cover;
     background-repeat: no repeat;
     
@@ -151,7 +152,7 @@ background-repeat: no-repeat;
 }
     .avanzado-2{
         @include card__base;
-        background-image: url(../../images/trucos.png);
+        background-image: url(../../../images/trucos.webp);
         background-size: cover;
         background-repeat: no repeat;
         
@@ -166,7 +167,7 @@ background-repeat: no-repeat;
         }
         .avanzado-3{
             @include card__base;
-            background-image: url(../../images/strapples.png);
+            background-image: url(../../../images/strapples.webp);
             background-size: cover;
             background-repeat: no repeat;
             
