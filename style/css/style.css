@@ -1361,7 +1361,7 @@ footer .--footer-nav a {
   color: var(--color-texblack);
   font-family: "Inter", serif;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 20px;
   transition: all 0.2s ease 0s;
 }
 footer .icon__container {
@@ -1419,7 +1419,7 @@ footer .footer__contacto {
 .footer__span span {
   color: black;
   font-weight: 500;
-  margin: 1rem;
+  margin: 2rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -1441,6 +1441,9 @@ footer .footer__contacto {
   footer .--footer-nav ul {
     padding: 0;
   }
+  footer .--footer-nav a {
+    font-size: 1rem;
+  }
   .icon__container {
     grid-area: icon;
     text-align: center;
@@ -1448,12 +1451,15 @@ footer .footer__contacto {
     color: var(--color-texblack);
   }
   .icon__container h2 {
-    margin-top: 0rem;
+    margin-top: 0.5rem;
   }
   .footer__span {
-    margin: 1rem;
+    margin-right: 4rem;
     display: flex;
-    justify-content: end;
+    justify-content: center;
+  }
+  .footer__span span {
+    margin-top: 4rem;
   }
   .iconos {
     display: flex;
@@ -1484,8 +1490,14 @@ footer .footer__contacto {
     flex-direction: row;
   }
   .footer__span {
-    margin: 1rem;
+    width: 100%;
+    padding: 0;
     justify-content: center;
+    padding-right: 3rem;
+  }
+  .footer__span span {
+    padding: 0;
+    margin: 0;
   }
   .iconos {
     display: flex;
@@ -1497,7 +1509,7 @@ footer .footer__contacto {
     margin: 1rem;
   }
   .footer__contacto {
-    margin-left: 7rem;
+    padding-bottom: 3rem;
   }
 }
 
