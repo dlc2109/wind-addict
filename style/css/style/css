@@ -525,11 +525,12 @@ p, article {
 /*layouts*/
 /*nav-bootstrap*/
 header {
-  width: 100vw;
-  height: 100px;
   display: flex;
+  justify-content: space-between;
   position: sticky;
-  z-index: 10;
+  top: 0;
+  width: 100%;
+  height: 100px;
   background: linear-gradient(109deg, rgba(0, 1, 13, 0.3) 12.87%, rgba(72, 184, 199, 0.3) 86.46%), #00010E;
   box-shadow: #b0b0b0 0px 0px 4px 0px;
 }
@@ -614,7 +615,7 @@ header .buttom__nav:hover {
 /*inicio*/
 /* section hero /inicio */
 main .section__hero {
-  width: 100vw;
+  width: 100%;
   height: 100%;
   object-fit: contain;
 }
@@ -696,7 +697,7 @@ main .container__hero .hero-parrafo {
 #section-safaris .section3__titulo h2 {
   display: flex;
   justify-content: center;
-  margin-top: 5rem;
+  margin-top: 2rem;
   margin-bottom: 0.9rem;
   color: var(--secundary-button);
 }
@@ -706,10 +707,9 @@ main .container__hero .hero-parrafo {
   padding: 0 72px;
   line-height: 1.6;
   text-align: justify;
-  margin-bottom: 2rem;
 }
 #section-safaris #carouselExampleFade {
-  z-index: 1;
+  z-index: -1;
 }
 #section-safaris #carouselExampleFade .carousel-inner {
   width: 70%;
@@ -738,7 +738,7 @@ main .container__hero .hero-parrafo {
   width: 5%;
   height: 8%;
   margin-left: 5%;
-  z-index: 1;
+  z-index: -1;
   cursor: pointer;
 }
 #section-safaris .carousel-control-next {
@@ -749,7 +749,7 @@ main .container__hero .hero-parrafo {
   width: 5%;
   height: 8%;
   margin-right: 5%;
-  z-index: 1;
+  z-index: -1;
   cursor: pointer;
 }
 
@@ -761,8 +761,7 @@ main .container__hero .hero-parrafo {
 #section-certificaciones .certificaciones__titulo {
   display: flex;
   justify-content: center;
-  margin-top: 5rem;
-  margin-bottom: 1rem;
+  margin: 1.5rem 4.5rem 0.9rem 4.5rem;
 }
 #section-certificaciones .certificaciones__parrafo {
   display: flex;
@@ -777,7 +776,7 @@ main .container__hero .hero-parrafo {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  margin-bottom: 3.5rem;
+  margin: 48px 72px 100px 72px;
 }
 #section-certificaciones .logo__container {
   display: flex;
@@ -837,18 +836,6 @@ main .container__hero .hero-parrafo {
   }
   .cards__container .--3 {
     margin-top: 0.2rem;
-  }
-  #section-certificaciones .certificaciones__titulo {
-    margin-top: 1.5rem;
-  }
-  #section-certificaciones .logo__container {
-    margin: 1.2rem;
-    width: 140px;
-    height: 140px;
-  }
-  #section-certificaciones .logo__container .logo-certificaciones {
-    width: 115px;
-    height: 115px;
   }
 }
 @media screen and (max-width: 480px) {
@@ -995,7 +982,7 @@ main .container__hero .hero-parrafo {
 /*lecciones*/
 /* pagina/LECCIONES */
 #lecciones {
-  width: 100vw;
+  width: 100%;
   height: 100%;
   margin-top: 48px;
 }
@@ -1386,18 +1373,15 @@ footer .icon__container .footer__contacto {
 .footer__span {
   grid-area: copy;
   text-align: center;
-  margin: 1rem;
 }
 .footer__span span {
   color: black;
   font-weight: 500;
-  margin: 1rem;
 }
 
 @media screen and (max-width: 768px) {
   footer {
-    width: 100vw;
-    padding: 0 36px;
+    width: 100%;
     background-color: var(--color-button);
     display: grid;
     grid-template-areas: "nav      icon      contact" "nav     icon     contact" "nav      icon        contact" "copy     copy      copy";
@@ -1406,12 +1390,8 @@ footer .icon__container .footer__contacto {
   }
   footer .--footer-nav {
     grid-area: nav;
-    text-align: left;
+    text-align: center;
     margin-top: 4rem;
-    margin-right: 1.3rem;
-  }
-  footer .--footer-nav ul {
-    padding: 0;
   }
   .icon__container {
     grid-area: icon;
@@ -1424,8 +1404,7 @@ footer .icon__container .footer__contacto {
   }
   .footer__span {
     margin: 1rem;
-    display: flex;
-    justify-content: end;
+    margin-right: 5rem;
   }
   .iconos {
     display: flex;
@@ -1457,7 +1436,7 @@ footer .icon__container .footer__contacto {
   }
   .footer__span {
     margin: 1rem;
-    justify-content: center;
+    margin-right: 2rem;
   }
   .iconos {
     display: flex;
@@ -1473,4 +1452,4 @@ footer .icon__container .footer__contacto {
   }
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=css.map */

@@ -2,7 +2,7 @@
 /* section hero /inicio */
 main{
     .section__hero{
-        width: 100%;
+        width: 100vw;
         height: 100%;
         object-fit: contain;
       }
@@ -44,8 +44,6 @@ main{
      }
     
     /* section2-cards/inicio*/
-    
-    
     #section-cards{
         width: 100%;
          height: 100%;
@@ -84,7 +82,7 @@ main{
         h2{
             display: flex;
             justify-content: center;
-            margin-top: 2rem ;
+            margin-top: 5rem ;
             margin-bottom: 0.9rem;
             color: var(--secundary-button);
          }
@@ -95,9 +93,10 @@ main{
             padding: 0 72px;
             line-height: 1.6;
             text-align: justify;
+            margin-bottom: 2rem;
         }
     #carouselExampleFade{
-        z-index: -1;
+        z-index: 1;
         .carousel-inner{
             width: 70%;
             height: 70%;
@@ -128,7 +127,8 @@ main{
        width: 5%;
        height: 8%;
        margin-left: 5%;
-       z-index: -1;
+       z-index: 1;
+       cursor: pointer;
         }
     .carousel-control-next{
         margin-top: 14%;
@@ -138,17 +138,20 @@ main{
         width: 5%;
         height: 8%;
         margin-right: 5%;
-        z-index: -1;
+        z-index: 1;
+        cursor: pointer;
        }
     }
  /* section 4 inicio/ certificaciones  */
  #section-certificaciones{
     width: 100%;
     height: 100%;
+   
     .certificaciones__titulo{
         display: flex;
         justify-content: center;
-        margin: 1.5rem 4.5rem 0.9rem 4.5rem;
+        margin-top:5rem;
+        margin-bottom: 1rem;
       
        }
        .certificaciones__parrafo{
@@ -164,7 +167,7 @@ main{
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
-        margin: 48px 72px 100px 72px;
+        margin-bottom: 3.5rem;
        }
        .logo__container{
         display: flex;
@@ -192,7 +195,8 @@ main{
     }
 
     @media screen and (max-width: 768px) {
-//hero section
+//hero section//
+
     main{
         .hero{
             width: 100vw;
@@ -224,7 +228,6 @@ main{
        }
     
  }
- 
        .cards__container{
             .--1{
                  margin-top: 0.5rem;
@@ -236,9 +239,28 @@ main{
                  margin-top: 0.2rem;
              }
              }
-            
-            }
+            #section-certificaciones{
+             
+                .certificaciones__titulo{
+                        margin-top: 1.5rem;
+                     }
+                     .logo__container{
 
+                        margin:1.2rem;
+                        width: 140px;
+                        height: 140px;
+   
+                        .logo-certificaciones{
+                            width: 115px;
+                            height: 115px;
+                        
+                           }  
+                       }      
+                }
+            }
+            
+
+    
 @media screen and (max-width: 480px) {
     main{
         .hero{
@@ -276,6 +298,7 @@ main{
     
  }
  #carouselExampleFade{
+    
  .carousel-control-prev{
    width: 5%;
    height: 10%;
@@ -289,8 +312,11 @@ main{
     padding: 4px 4px;
       }
    }
+   
 }
 
+             
+  
 
     
 

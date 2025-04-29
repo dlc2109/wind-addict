@@ -76,14 +76,18 @@ footer{
 .footer__span{
     grid-area: copy;
     text-align: center;
+    margin: 1rem;
+    
     span{
         color: black;
         font-weight: 500;
+        margin: 1rem;
       }
   }
 @media screen and (max-width: 768px) {
     footer{
-        width: 100%;
+        width: 100vw;
+        padding: 0 36px;
         background-color: var(--color-button);
         display: grid;
         grid-template-areas:
@@ -95,8 +99,12 @@ footer{
         grid-template-rows:  150px;
         .--footer-nav {
             grid-area: nav;
-            text-align: center;
+            text-align: left;
             margin-top: 4rem;
+            margin-right: 1.3rem;
+            ul{
+                padding: 0;
+            }
         }
     }
     .icon__container{
@@ -112,7 +120,10 @@ footer{
       
     .footer__span{
         margin: 1rem;
-      margin-right: 5rem;
+        display: flex;
+        justify-content: end;
+        
+   
 
     }
     .iconos{
@@ -124,6 +135,7 @@ footer{
          margin: 1rem;
        }
     }
+    
 }
 @media screen and (max-width: 480px) {
     footer{
@@ -150,7 +162,7 @@ footer{
  
     .footer__span{
         margin: 1rem;
-      margin-right: 2rem;
+    justify-content: center;
 
     }
     .iconos{
