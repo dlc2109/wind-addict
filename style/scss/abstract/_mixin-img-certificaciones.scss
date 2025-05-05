@@ -11,16 +11,16 @@ background-repeat: no-repeat;
 
 .img__iko{
     @include img-certificaciones;
-    background-image: url(../../../images/iko.png);
+    background-image: url(../../images/iko.png);
     
 }
 .img__logo-certificaciones{
     @include img-certificaciones;
-    background-image: url(../../../images/logo-winda.png);
+    background-image: url(../../images/logo-winda.png);
 }
 .img__logo-firstaid{
     @include img-certificaciones;
-    background-image: url(../../../images/firstsaid.png);
+    background-image: url(../../images/firstsaid.png);
     width: 75px;
     height: 125px;
     margin-top: 18px;
@@ -36,7 +36,7 @@ background-repeat: no-repeat;
 }
 .iniciante-1{
     @include card__base;
-    background-image: url(../../../images/nociones\ basicas.webp);
+    background-image: url(../../images/nociones\ basicas.webp);
     background-size: cover;
     background-repeat: no-repeat;
     
@@ -54,7 +54,7 @@ background-repeat: no-repeat;
 }
 .iniciante-2{
     @include card__base;
-     background-image: url(../../../images/waterstart.webp);
+     background-image: url(../../images/waterstart.webp);
     background-size: cover;
     background-repeat: no repeat;
     background-position-x: 300%;
@@ -72,7 +72,7 @@ background-repeat: no-repeat;
  
     .iniciante-3{
         @include card__base;
-        background-image: url(../../../images/bodydrag.webp);
+        background-image: url(../../images/bodydrag.webp);
         background-size: cover;
         background-repeat: no repeat;
         
@@ -90,7 +90,7 @@ background-repeat: no-repeat;
 //intermedio//
 .intermedio-1{
     @include card__base;
-    background-image: url(../../../images/cenir.webp);
+    background-image: url(../../images/cenir.webp);
     background-size: cover;
     background-repeat: no repeat;
     
@@ -105,7 +105,7 @@ background-repeat: no-repeat;
 }
     .intermedio-2{
        @include card__base;
-        background-image: url(../../../images/transiciones.webp);
+        background-image: url(../../images/transiciones.webp);
         background-size: cover;
         background-repeat: no repeat;
         
@@ -120,7 +120,7 @@ background-repeat: no-repeat;
     }
         .intermedio-3{
             @include card__base;
-            background-image: url(../../../images/fluidez.webp);
+            background-image: url(../../images/fluidez.webp);
             background-size: cover;
             background-repeat: no repeat;
             
@@ -137,7 +137,7 @@ background-repeat: no-repeat;
 
 .avanzado-1{
     @include card__base;
-    background-image: url(../../../images/saltos.webp);
+    background-image: url(../../images/saltos.webp);
     background-size: cover;
     background-repeat: no repeat;
     
@@ -152,7 +152,7 @@ background-repeat: no-repeat;
 }
     .avanzado-2{
         @include card__base;
-        background-image: url(../../../images/trucos.webp);
+        background-image: url(../../images/trucos.webp);
         background-size: cover;
         background-repeat: no repeat;
         
@@ -167,7 +167,7 @@ background-repeat: no-repeat;
         }
         .avanzado-3{
             @include card__base;
-            background-image: url(../../../images/strapples.webp);
+            background-image: url(../../images/strapples.webp);
             background-size: cover;
             background-repeat: no repeat;
             

@@ -6,7 +6,7 @@
   margin-top: 100px;
   background-size: contain;
   background-repeat: no-repeat;
-  background-image: url(../../../images/iko.png);
+  background-image: url(../../images/iko.png);
 }
 
 .img__logo-certificaciones {
@@ -15,7 +15,7 @@
   margin-top: 100px;
   background-size: contain;
   background-repeat: no-repeat;
-  background-image: url(../../../images/logo-winda.png);
+  background-image: url(../../images/logo-winda.png);
 }
 
 .img__logo-firstaid {
@@ -24,7 +24,7 @@
   margin-top: 100px;
   background-size: contain;
   background-repeat: no-repeat;
-  background-image: url(../../../images/firstsaid.png);
+  background-image: url(../../images/firstsaid.png);
   width: 75px;
   height: 125px;
   margin-top: 18px;
@@ -37,7 +37,7 @@
   height: 370px;
   border-radius: 8px;
   box-shadow: 0px 0px 10px 0px rgb(167, 167, 167);
-  background-image: url(../../../images/nociones\ basicas.webp);
+  background-image: url(../../images/nociones\ basicas.webp);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -56,7 +56,7 @@
   height: 370px;
   border-radius: 8px;
   box-shadow: 0px 0px 10px 0px rgb(167, 167, 167);
-  background-image: url(../../../images/waterstart.webp);
+  background-image: url(../../images/waterstart.webp);
   background-size: cover;
   background-repeat: no repeat;
   background-position-x: 300%;
@@ -76,7 +76,7 @@
   height: 370px;
   border-radius: 8px;
   box-shadow: 0px 0px 10px 0px rgb(167, 167, 167);
-  background-image: url(../../../images/bodydrag.webp);
+  background-image: url(../../images/bodydrag.webp);
   background-size: cover;
   background-repeat: no repeat;
 }
@@ -95,7 +95,7 @@
   height: 370px;
   border-radius: 8px;
   box-shadow: 0px 0px 10px 0px rgb(167, 167, 167);
-  background-image: url(../../../images/cenir.webp);
+  background-image: url(../../images/cenir.webp);
   background-size: cover;
   background-repeat: no repeat;
 }
@@ -114,7 +114,7 @@
   height: 370px;
   border-radius: 8px;
   box-shadow: 0px 0px 10px 0px rgb(167, 167, 167);
-  background-image: url(../../../images/transiciones.webp);
+  background-image: url(../../images/transiciones.webp);
   background-size: cover;
   background-repeat: no repeat;
 }
@@ -133,7 +133,7 @@
   height: 370px;
   border-radius: 8px;
   box-shadow: 0px 0px 10px 0px rgb(167, 167, 167);
-  background-image: url(../../../images/fluidez.webp);
+  background-image: url(../../images/fluidez.webp);
   background-size: cover;
   background-repeat: no repeat;
 }
@@ -152,7 +152,7 @@
   height: 370px;
   border-radius: 8px;
   box-shadow: 0px 0px 10px 0px rgb(167, 167, 167);
-  background-image: url(../../../images/saltos.webp);
+  background-image: url(../../images/saltos.webp);
   background-size: cover;
   background-repeat: no repeat;
 }
@@ -171,7 +171,7 @@
   height: 370px;
   border-radius: 8px;
   box-shadow: 0px 0px 10px 0px rgb(167, 167, 167);
-  background-image: url(../../../images/trucos.webp);
+  background-image: url(../../images/trucos.webp);
   background-size: cover;
   background-repeat: no repeat;
 }
@@ -190,7 +190,7 @@
   height: 370px;
   border-radius: 8px;
   box-shadow: 0px 0px 10px 0px rgb(167, 167, 167);
-  background-image: url(../../../images/strapples.webp);
+  background-image: url(../../images/strapples.webp);
   background-size: cover;
   background-repeat: no repeat;
 }
@@ -486,7 +486,7 @@ p, article {
   height: 200px;
   margin: 4px 4px;
   border-radius: 8px;
-  background-image: url(../../../images/cardkite.webp);
+  background-image: url(../../images/cardkite.webp);
   background-size: cover;
   background-repeat: no repeat;
 }
@@ -494,7 +494,7 @@ p, article {
   height: 200px;
   margin: 4px 4px;
   border-radius: 8px;
-  background-image: url(../../../images/cardwing.webp);
+  background-image: url(../../images/cardwing.webp);
   background-size: cover;
   background-repeat: no repeat;
 }
@@ -502,7 +502,7 @@ p, article {
   height: 200px;
   margin: 4px 4px;
   border-radius: 8px;
-  background-image: url(../../../images/cardfoil.webp);
+  background-image: url(../../images/cardfoil.webp);
   background-size: cover;
   background-repeat: no repeat;
 }
@@ -630,7 +630,7 @@ main .container__hero .hero__content {
   justify-content: center;
   height: 100vh;
   padding: 0 72px;
-  background-image: url(../../../images/image_background.webp);
+  background-image: url(../../images/image_background.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
