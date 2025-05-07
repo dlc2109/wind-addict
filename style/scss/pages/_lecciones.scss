@@ -107,6 +107,11 @@
     text-align: center;
     margin-top: 64px;
     margin: 0;
+    transition: .3s ease-in-out;
+    
+    &:hover{
+    transform: scale(105%);
+     }
 
 }
 //avanzado//
@@ -140,6 +145,11 @@
         text-align: center;
         margin-top: 64px;
         margin: 0;
+        transition: .3s ease-in-out;
+    
+    &:hover{
+    transform: scale(105%);
+     }
     }
    
 }

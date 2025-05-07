@@ -8,11 +8,10 @@
     margin: 0;
     margin-top: 48px;
     transition: .3s ease-in-out;
+    
     &:hover{
     transform: scale(105%);
-}
-
-
+     }
 }
 .cards {
     @extend .cards;
@@ -23,6 +22,7 @@
         background-image: url(../../images/cardkite.webp);
         background-size: cover;
         background-repeat: no repeat;
+        
     
       
     }

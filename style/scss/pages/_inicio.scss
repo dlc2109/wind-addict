@@ -20,13 +20,15 @@ main{
             background-repeat: no-repeat ;
             background-size: cover;
             background-position: center;
+           
             .hero__titulo{
-                font-family: "Barlow Condensed", serif; font-size:120px ; color: #fff; font-weight: bold;
+                font-family: "Barlow Condensed", serif; font-size:100px ; color: #fff; font-weight: bold;
                 padding:  0 10px;
                 margin: 0;
+                animation: animation-left 2s ease 0s 1 normal forwards;
                 span{
                 color:var(--color-button);
-           
+                animation: animation-left 2s ease 0s 1 normal forwards;
                 }
             }
             .hero__parrafo{
@@ -43,12 +45,67 @@ main{
             font-weight: 600; 
             font-size: 20px;
             line-height: 1.6;
+            animation: parrafo-left 2s ease 0s 1 normal forwards;
           
             }
           
         }
       }
    }
+   @keyframes animation-left {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 0;
+		transform: translateX(-250px);
+	}
+
+	38% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateX(0);
+	}
+
+	55% {
+		animation-timing-function: ease-in;
+		transform: translateX(-68px);
+	}
+
+	72% {
+		animation-timing-function: ease-out;
+		transform: translateX(0);
+	}
+
+	81% {
+		animation-timing-function: ease-in;
+		transform: translateX(-28px);
+	}
+
+	90% {
+		animation-timing-function: ease-out;
+		transform: translateX(0);
+	}
+
+	95% {
+		animation-timing-function: ease-in;
+		transform: translateX(-8px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		transform: translateX(0);
+	}
+}
+@keyframes parrafo-left {
+	0% {
+		opacity: 0;
+		transform: translateX(-50px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
     
     /* section2-cards/inicio*/
     #section-cards{
