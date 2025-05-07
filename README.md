@@ -6,8 +6,8 @@ Wind Addict es un caso de estudio diseñado para explorar y demostrar habilidade
 
 Composición del proyecto:
 
-HTML (56.6%): Estructura semántica y accesible para el contenido del proyecto.
-SCSS (43.4%): Estilización modular y escalable basada en el preprocesador CSS.
+HTML (43.6%): Estructura semántica y accesible para el contenido del proyecto.
+SCSS (56.4%): Estilización modular y escalable basada en el preprocesador CSS.
 Objetivos del proyecto:
 
 Demostrar técnicas modernas de diseño web.
