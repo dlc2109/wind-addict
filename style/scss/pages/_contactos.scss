@@ -1,10 +1,9 @@
 #formulario{
     form{
     padding: 16px 24px;
-    width: 600px;
+    width: 50%;
     margin: auto;
-
-    margin-top: 80px;
+    margin-top: 15rem;
     box-shadow: 0px 5px 25px  rgb(58, 58, 58);
     h1{
         color: #fff;
@@ -12,6 +11,7 @@
         padding-top: 24px;
         padding-bottom: 24px;
         font-weight: 400;
+        margin-top: 4rem;
      }
  }
  .container__formulario{
@@ -42,7 +42,7 @@
         width: 95%;
         height: 48px;
         box-sizing: border-box;
-        background-color: black; color: grey;
+        background-color: rgb(255, 255, 255);
         padding: 6px 12px;
         border: none;
         border-radius: 5px;
@@ -132,9 +132,52 @@
     
     }
 }
+@media screen and (max-width: 320px) {
+    #formulario{
+        .container__formulario{
+            fieldset{
+                width: 100%;
+                height: auto;
+                margin: 0 auto;
+                border: 1px solid var(--secundary-button);
+                padding: 16px 16px;
+                legend{
 
-
-
+                    font-family: sans-serif ; font-size: 1rem; font-weight: 400;
+                  }
+                  input{
+                    width: 85%;
+                    height: 38px;
+                    box-sizing: border-box;
+                    background-color: rgb(255, 255, 255); 
+                  }
+                 }
+        
+           .iframe__contact{
+            width: 150px;
+            height: 290px;
+            }
+    }
+    form{
+        margin-top: 10rem;
+        width: 280px;
+        box-shadow: 0px 5px 25px  rgb(92, 91, 91);
+        h1{
+            font-size: 1rem;
+         }
+         .form__submit {
+         height: 50px;
+        }
+      }
+   }
+ 
+}
+.iframe__contact{
+    width: 220px;
+    height: 200px;
+   
+    
+    }
 
 
 

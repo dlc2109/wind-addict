@@ -10,9 +10,11 @@ h2{
 h3{
     font-family: "Poppins", serif; font-weight: 500; font-size: 16px; color: #fff;
 }
-p,article{
+p{
     font-family: "Poppins", serif; font-weight: 300; font-size: 16px; color: #f0f0f0;
 
+}
+article{font-family: "Poppins", serif; font-weight: 300; font-size: 16px; color: #f0f0f0;
 }
 @media screen and (max-width: 768px) {
     body{
@@ -27,8 +29,9 @@ p,article{
     }
     p{
         font-size: 1rem;
+
     }
-    article{
+    article{line-height: 1.4;
         font-size: 1rem;
     }
     }

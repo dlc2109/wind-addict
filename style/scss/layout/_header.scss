@@ -92,3 +92,13 @@ header{
         }
     }
   }  
+
+  @media screen and (max-width: 320px) {
+    header{
+       
+        .buttom__nav{
+            display: none;
+
+        }
+    }
+  }  

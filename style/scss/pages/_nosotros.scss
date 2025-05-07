@@ -6,9 +6,9 @@
     color: black;
   }
     #nosotros{
-        width: 100vw;
-        height: 100vh;
-    }
+        width: 100%;
+        height: 100%;
+    
     .nosotros__tittle{
         display: flex;
         justify-content: center;
@@ -16,6 +16,8 @@
         margin-bottom: 0.9rem;
         h1{
             color: var(--secundary-button);
+            z-index: 9;
+            margin-top: 7rem;
         }
      }
         .nosotros__article{
@@ -24,13 +26,14 @@
             padding: 0 72px;
             line-height: 1.5;
             text-align: justify;
+            margin-top: 5rem;
         }
             .fundadores{
                 display: flex;
                 flex-direction: row;
                 align-items: center;
                 justify-content: center;
-                gap: 16px;
+                gap: 1.5rem;
                 flex-wrap: wrap;
                 margin-top: 48px;
                 margin-bottom: 48px;
@@ -43,6 +46,7 @@
                 }
         }
    }  
+}
     #section-location{
                width: 100%;
                height: 100%;
@@ -82,27 +86,125 @@
                 box-shadow: 0 0 5px 0  black;
          }
 
+  
+         @media screen and (max-width: 768px) {
+            .nosotros-body {
+                #nosotros{
+                .nosotros__tittle{
+                    margin-top: 3rem ;
+                 }
+                    .nosotros__article{
+                     
+                        padding: 0 36px;
+                        line-height: 1.5;
+                        text-align: justify;
+                        margin-top: 3rem;
+                    }
+                        .fundadores{
+                            gap: 2rem;
+                            padding: 0 36px;
+                      
+                    }
+               }  
+            }
 
-  @media screen and (max-width: 768px) {
-    .fundadores{
-        img{
-            margin: 16px ;
-        }
-      }    
-    }
-    @media screen and (max-width: 480px) {
-        .nosotros__iframe{
-            width: 350px;
-            height: 350px;
-          
-             margin-top: 1rem;
-            
          }
+         #section-location{
+   
+             .parrafo__locacion{
+                    padding: 0 36px;
+                     line-height: 1.5;
+              }  
+      }
+
+ #location-map{
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+         margin-top: 48px;
+  }
+  .nosotros__iframe{
+     width: 500px;
+   
+  }
+ 
+
+    @media screen and (max-width: 480px) {
+        .nosotros-body {
+            #nosotros{
+            .nosotros__tittle{
+                margin-top: 3rem ;
+             }
+                .nosotros__article{
+                    margin-top: 1.5rem;
+                 }
+            }  
+     }
+     #section-location{
+
+         .parrafo__locacion{
+                padding: 0 36px;
+                 text-align: justify;
+          }  
+  }
+
+        #location-map{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 48px;
 }
-
- 
- 
+        .nosotros__iframe{
+            width: 280px;
+      }
+    }
+@media screen and (max-width: 320px) {
     
-       
+.nosotros-body {
 
+    #nosotros{
+    
+    .nosotros__tittle{
+        display: flex;
+        justify-content: center;
+        margin-top: 3rem ;
+        margin-bottom: 0.9rem;
+        h1{
+            color: var(--secundary-button);
+            z-index: 9;
+            margin-top: 5rem;
+        }
+     }
+        .nosotros__article{
+            margin-top: 1rem;
+        }
+            .fundadores{
+                padding: 0 16px;
+                img{
+                    width: 200px;
+                    height: 200px;
+                }
+           }
+      }  
+}
+    #section-location{
+           .parrafo__locacion{
+                    
+                padding: 0 16px;
+                line-height: 1.5;
+                text-align: justify;
+            }  
+         }
 
+    #location-map{
+         margin: 0.5rem; 
+     }
+     .nosotros__iframe{
+        width: 250px;
+        height: 250px;
+         margin-top: 0.5rem;
+     }
+    
+}

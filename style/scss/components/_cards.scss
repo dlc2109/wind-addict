@@ -70,3 +70,63 @@
     }
  
 }
+@media (max-width: 320px) {
+ 
+   .cards__container{
+    width: 100%;
+    margin: 0;
+    padding: 0 24px;
+
+   }
+    .cards {
+        width: 220px;
+        height: 320px;
+        margin: 0;
+        margin-top: 48px;
+        overflow: hidden;
+    }
+    .cards {
+        @extend .cards;
+        .img_1 {
+            height: 120px;
+          
+          
+        }
+    
+        .img_2{
+   
+            height: 120px;
+            margin: 4px 4px;
+            border-radius: 8px;
+            background-image: url(../../images/cardwing.webp);
+            background-size: cover;
+            background-repeat: no repeat;
+        
+        }
+       
+        .img_3{
+            height: 120px;
+            margin: 4px 4px;
+            border-radius: 8px;
+            background-image: url(../../images/cardfoil.webp);
+            background-size: cover;
+            background-repeat: no repeat;
+        }
+        .contenido_titulo h2{
+            color:var(--color-texblack);
+            font-weight: 600;
+           margin: 4px;
+        
+        }
+        .card_parrafo P{
+            color: var(--color-texblack);
+            margin: 0px 1rem;
+            text-align: center;
+        
+            line-height: 1.4;
+            text-align: justify;
+        }
+        
+
+}
+} 
