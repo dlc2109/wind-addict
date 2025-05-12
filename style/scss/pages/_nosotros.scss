@@ -74,9 +74,10 @@
             align-items: center;
             justify-content: center;
             margin-top: 48px;
+          
      }
      .nosotros__iframe{
-        width: 600px;
+        max-width: 450px;
         display: flex;
          justify-content: center;
          margin-top: 48px;

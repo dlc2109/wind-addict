@@ -12,7 +12,8 @@ header{
 
     .container{
         height: 20px;
-        height: 10%
+        height: 10%;
+       
     }
     img {
         display: inline-block;
@@ -95,10 +96,22 @@ header{
 
   @media screen and (max-width: 320px) {
     header{
-       
+          nav{
+        padding: 0;
+        background-color: rgb(2, 0, 23);
+        height: auto;
+        width: 320px;
+
+         .container{
+        height: 20px;
+        height: 10%;
+        width: 320px;
+         }
+      
         .buttom__nav{
             display: none;
 
         }
     }
   }  
+  }
