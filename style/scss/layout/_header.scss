@@ -9,11 +9,17 @@ header{
         padding: 0;
         background-color: rgb(2, 0, 23);
         height: auto;
+        .nav-link{   
+          &:hover{
+            color:var(--color-button);
+            border-bottom: var(--color-button) 1px solid;
+             transition: all .3s ease  ;
+          }
+        }
 
     .container{
         height: 20px;
         height: 10%;
-       
     }
     img {
         display: inline-block;

@@ -480,7 +480,6 @@ article {
     background-color: #60f7ff;
     margin-left: 0;
     font-size: 14px;
-    margin-top: 1rem;
   }
   .card__cta {
     width: 150px;
@@ -495,7 +494,6 @@ article {
     background-color: #60f7ff;
     margin-left: 0;
     font-size: 14px;
-    margin-top: 3rem;
   }
   .card__cta {
     width: 150px;
@@ -621,6 +619,11 @@ header nav {
   padding: 0;
   background-color: rgb(2, 0, 23);
   height: auto;
+}
+header nav .nav-link:hover {
+  color: var(--color-button);
+  border-bottom: var(--color-button) 1px solid;
+  transition: all 0.3s ease;
 }
 header nav .container {
   height: 20px;
@@ -758,7 +761,7 @@ main .container__hero .hero__content .hero-parrafo {
   color: var(--color-texblack);
   font-weight: 600;
   font-size: 20px;
-  line-height: 1.6;
+  line-height: 1.5;
   animation: parrafo-left 2s ease 0s 1 normal forwards;
 }
 
@@ -1081,7 +1084,7 @@ main .container__hero .hero__content .hero-parrafo {
   }
   main .container__hero .hero__content .hero__parrafo {
     width: 100%;
-    height: 85px;
+    height: auto;
     padding: 0 4px;
     line-height: 1.2;
     margin-top: 0;
@@ -1141,7 +1144,7 @@ main .container__hero .hero__content .hero-parrafo {
   main .container__hero .hero__content {
     height: 75vh;
     background-position-x: 62%;
-    padding: 0 16px;
+    background-position: left;
   }
   main .container__hero .hero__content .hero__titulo {
     font-family: "Barlow Condensed", serif;
@@ -1922,14 +1925,15 @@ footer .footer__contacto {
 }
 
 .footer__span {
+  display: flex;
+  justify-content: center;
   grid-area: copy;
   text-align: center;
-  margin: 1rem;
+  padding-bottom: 0.5rem;
 }
 .footer__span span {
   color: black;
   font-weight: 500;
-  margin: 2rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -1963,7 +1967,6 @@ footer .footer__contacto {
     margin-top: 0.5rem;
   }
   .footer__span {
-    margin-right: 4rem;
     display: flex;
     justify-content: center;
   }
@@ -2002,7 +2005,7 @@ footer .footer__contacto {
   .footer__span {
     padding: 0;
     justify-content: center;
-    padding-right: 3rem;
+    padding-bottom: 0.5rem;
   }
   .footer__span span {
     padding: 0;
@@ -2051,7 +2054,7 @@ footer .footer__contacto {
     margin: 0;
   }
   .footer__span {
-    padding: 0;
+    padding-bottom: 0.5rem;
     display: flex;
     margin: 0;
   }
